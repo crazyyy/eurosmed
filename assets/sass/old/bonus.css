@@ -1,0 +1,44 @@
+/* Формы и поля - общие для всех страниц */
+.h_line 						{border-left:5px solid #D92728;padding:2px 0px 2px 10px;}
+.h_line_color 				{border-left:5px solid #D92728;padding:2px 0px 2px 10px;}
+.admin_img_border_left 		{padding:3px;margin:0px 15px 5px 0px;float:left;background-color:white;border:1px solid #e3e3e3;}
+.admin_img_border_right 		{float:right;padding:3px;margin:0px 0px 5px 15px;background-color:white;border:1px solid #e3e3e3;}
+.admin_img_NOborder_left 	{padding:3px;margin:7px 10px 7px 0px;float:left;}
+.admin_img_NOborder_right 	{float:right;padding:3px;margin:5px 0px 5px 10px;}
+.admin_abzac 				{margin:15px 0px 15px 60px;}
+.admin_abzac p 				{margin-bottom:5px;}
+a.admin_morelink			{display:block;margin:12px 0 15px 0;width:100px;height:24px;background:url(../images/bg/morelink.png);}
+a.admin_morelink:hover		{background:url(../images/bg/morelink.png) 0 24px;}
+
+/* Формы и поля - общие для всех страниц */
+.form.form_mesages, #comments  {overflow:hidden;width:665px;padding:15px 20px 15px 20px;border:1px dotted #CCCCCC;background:#F7F7F7}
+.form input[type="text"], 
+.form input[type="password"]	{width:250px;display:block;border:1px solid #CCCCCC;padding:2px;margin-bottom:10px;}
+.form textarea {height:80px;padding:5px;width:98%;border:1px solid #CCCCCC;margin-bottom:10px;}
+.form label {display:block;color:#454545;font:bold 11px/1 Arial;padding:5px 0 4px 0px;}
+.form .captcha {float:left;display:block;margin-right:10px;font-size:18px;}
+.form .input_captcha 	{float:left;text-align:center;width:80px !important;height:36px;font-size:24px;text-transform:uppercase;}
+form input[type="submit"],
+.form.form_mesages input[type="submit"]{margin-top:-40px;color:#fff;font:bold 12px "Arial";padding:6px 35px 6px 35px;background:#C3C3C3;border:none;clear:both;float:right;}
+form input[type="submit"]:hover,
+.form.form_mesages input[type="submit"]:hover{color:#fff;background:#D92728;border:none;}
+
+.comment_list 			{margin:-5px 10px 0px 0px;}
+.comment_list li 			{padding:10px 10px 15px 15px;}
+.comment_header 			{font-size:14px;}
+.comment_header i 		{font-weight:normal;font-style:normal;color:#878787;font-size:11px;}
+
+.pagination 				{font-size:11px;clear:both;display:block;overflow:hidden;padding:5px 0px 10px 0px;border-bottom:1px dotted #e3e3e3;}
+.pagination a 			{display:block;float:left;text-decoration:none;color:#808080;padding:2px 6px 3px 6px;margin-right:3px;border:1px solid #e3e3e3;}
+.pagination a:hover,
+a.current_page 			{background-color:#F7F7F7;font-weight:700;padding:2px 6px 3px 6px;text-decoration:none;}
+
+#danger_message			{position:fixed;right:0;top:0;background:#CC0000;color:#fff;border:1px solid #fff;font:bold 11px "Arial";padding:4px 10px 5px 10px;;z-index:55;}
+#danger_message a		{color:#fff;}
+P.bott
+{
+	float: left;
+	width: 800px;
+	font-size: 11px;
+	margin-left: 20px;color:#d6d6d6;
+}

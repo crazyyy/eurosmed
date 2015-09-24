@@ -1,0 +1,67 @@
+#baloon {
+  position: absolute;
+  z-index: 64999;
+  top: 0;
+  left: 0;
+
+  display: none;
+
+  width: 187px;
+  margin: 0;
+  padding: 0;
+
+  opacity: .8;
+}
+
+#baloonHeader {
+  font-size: 0;
+  line-height: 0;
+
+  display: block;
+
+  width: 187px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+
+  background-repeat: no-repeat;
+}
+
+.baloonHeaderDirect {
+  background-image: url(../i/baloon-header.gif);
+}
+
+.baloonHeaderFlip {
+  background-image: url(../i/baloon-header-flip.gif);
+}
+
+#baloonFooter {
+  font-size: 0;
+  line-height: 0;
+
+  display: block;
+
+  width: 187px;
+  height: 3px;
+  margin: 0;
+  padding: 0;
+
+  background-image: url(../i/baloon-footer.gif);
+  background-repeat: no-repeat;
+}
+
+#baloonBody {
+  font: normal normal 10px/14px Verdana, Arial, serif;
+  line-height: 140%;
+
+  display: block;
+
+  width: 167px;
+  width: expression('167px');
+  margin: 0;
+  padding: 10px;
+
+  background-color: #d0d0d0;
+  background-image: url(../i/baloon-body.gif);
+  background-repeat: repeat-y;
+}
